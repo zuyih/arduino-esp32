@@ -114,6 +114,6 @@ class ESPUSB {
         uint8_t _event_task_priority;
 };
 
-extern ESPUSB USB;
+//extern ESPUSB USB;
 
 #endif /* CONFIG_TINYUSB_ENABLED */

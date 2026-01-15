@@ -61,10 +61,10 @@ extern "C" void app_main()
     MSC_Update.begin();
 #endif
 #if ARDUINO_USB_DFU_ON_BOOT && !ARDUINO_USB_MODE
-    USB.enableDFU();
+    //USB.enableDFU();
 #endif
 #if ARDUINO_USB_ON_BOOT && !ARDUINO_USB_MODE
-    USB.begin();
+    //USB.begin();
 #endif
     loopTaskWDTEnabled = false;
     initArduino();

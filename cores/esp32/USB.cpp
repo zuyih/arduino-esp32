@@ -360,6 +360,6 @@ const char * ESPUSB::webUSBURL(void){
     return webusb_url.c_str();
 }
 
-ESPUSB USB;
+//ESPUSB USB;
 
 #endif /* CONFIG_TINYUSB_ENABLED */
